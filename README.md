@@ -8,6 +8,8 @@ A tiny Persian calender convertor from/to Gregorian calendar
 ### Usage
 You can cunstruct a pdate and use the `toGregorian` and `toDate` methods to convert a Persian date to Gregorian date:
 ```javascript
+var pdate = require('pdate');
+
 var pd = pdate(1391, 2, 25);
 
 pd.toGregorian() // -> [ 2012, 5, 14 ]

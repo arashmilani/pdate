@@ -1,6 +1,6 @@
 {
   "name": "pdate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A tiny Persian calender convertor from/to Gregorian calendar",
   "main": "index.js",
   "scripts": {
