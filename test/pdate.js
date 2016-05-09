@@ -1,11 +1,6 @@
 const assert = require('assert');
 const pdate = require('../');
 
-
-function validate(){
-
-}
-
 describe('pdate', function(){
   describe('#()', function(){
     it('should cunstruct pdate object with 3 args (year, month, day)', function(){
