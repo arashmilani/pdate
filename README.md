@@ -22,7 +22,7 @@ date.getDate() // -> 14
 You can convert a Gregorian date or a Javascriot `Date` Object to pdate by `fromGregorian` and `fromDate` methods:
 ```javascript
 var pd = pdate.fromGregorian(2012, 5, 14);
-var pd = pdate.fromDate(new Date(2012, 5, 14));  // The same as above line just using fromDate instead of fromGregorian
+var pd = pdate.fromDate(new Date(2012, 4, 14));  // The same as above line just using fromDate instead of fromGregorian
 pd.year // -> 1391
 pd.month // -> 2
 pd.day // -> 25
