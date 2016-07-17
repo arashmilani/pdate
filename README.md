@@ -30,7 +30,7 @@ pd.month // -> 2
 pd.day // -> 25
 ```
 
-You can also use `isLeapYear` method to check pdate if the date is in a Hijri Shamsi leap year or not.
+You can also use `isLeapYear` method to check if the date is in a Hijri Shamsi leap year or not.
 ```javascript
 pdate(1391, 7, 21).isLeapYear() // -> true
 pdate(1392, 1, 12).isLeapYear() // -> false
